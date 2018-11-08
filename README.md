@@ -1,5 +1,6 @@
 # Importing CSV File to SQL Database!
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE)
+![PyPI - Status](https://img.shields.io/pypi/status/Django.svg)
 
 Hi everybody :)
 
