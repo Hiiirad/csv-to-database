@@ -6,6 +6,8 @@ Hi everybody :)
 
 ## Getting Started
 
+This program will only works on **Linux** systems and I believe it would be work perfectly on Macbooks. My OS is Ubuntu 18.04 and I design this program to run on all debian-based linux systems. The installation process will be different if you use other linux distributions.
+
 This program import all data of a _CSV_ file to database. (When I say database, I mean _SQL_ database)
 
 ### Features
