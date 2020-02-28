@@ -17,49 +17,45 @@ This program import all data of a _CSV_ file to database. (When I say database, 
 - You can see [ODBC Documentation](https://docs.microsoft.com/en-us/sql/odbc/reference/introduction-to-sql-and-odbc?view=sql-server-2017)
 
 ### Prerequisites
-```
+```bash
 sudo apt update && sudo apt upgrade -y
-```
-```
 sudo apt install git
 ```
 
 ### Installing
 I prefer using [Anaconda](https://www.anaconda.com/) instead of using [Pip or PyPI](https://pypi.org/), but you decide which is good for you.
  - Using Pip:
-    - ```sudo apt install python3-pip```
-    - ```pip install pip```
-    - ```pip install -r requirements.txt```
+    ```bash
+    sudo apt install python3-pip
+    pip install pip
+    pip install -r requirements.txt
+    ```
  - Using Anaconda: Installation process is completely documented [here](https://docs.anaconda.com/anaconda/install/linux/).
 
 ### Upgrading
 * Pip:
-    ```
+    ```bash
     pip install -U pip
     ```
 * Anaconda:
-    ```
+    ```bash
     conda update --all
     ```
 
 ### Version check to verify installation
 * Pip:
-    ```
+    ```bash
     pip --version
     ```
 * Anaconda:
-    ```
+    ```bash
     conda --version
     ```
 
 ## Usage
-```
+```bash
 https://github.com/Hiiirad/csv-to-database.git
-```
-```
 cd csv-to-database/
-```
-```
 python csv-to-database.py
 ```
 ## Contributing
